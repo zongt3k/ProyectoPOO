@@ -5,13 +5,9 @@ public class Disipacion {
 	 private String tipoDisipacion;
 	 private String marcaDisipador;
 	 private int 	fanSpeed;
-	public Disipacion(String tipoDisipacion, String marcaDisipador, int fanSpeed) {
-		super();
-		this.tipoDisipacion = tipoDisipacion;
-		this.marcaDisipador = marcaDisipador;
-		this.fanSpeed = fanSpeed;
-	}
-	public String getTipoDisipacion() {
+	
+	 
+	 public String getTipoDisipacion() {
 		return tipoDisipacion;
 	}
 	public void setTipoDisipacion(String tipoDisipacion) {
@@ -29,6 +25,7 @@ public class Disipacion {
 	public void setFanSpeed(int fanSpeed) {
 		this.fanSpeed = fanSpeed;
 	}
-	 
+	
+
 	 
 }

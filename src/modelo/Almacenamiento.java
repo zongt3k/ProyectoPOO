@@ -7,8 +7,9 @@ public class Almacenamiento {
 	 private String tipoConexion;
 	 private int 	velocidadLectura;
 	 private int 	velocidadEscritura;
-
-
+	 
+	
+	
 	public String getTipoAlmacenamiento() {
 		return tipoAlmacenamiento;
 	}

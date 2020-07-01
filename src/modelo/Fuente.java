@@ -1,21 +1,13 @@
 package modelo;
 
-public class Fuente {
+public class  Fuente {
 	
 	 private String potencia;
 	 private int 	diametroVentilador;
 	 private String numeroConectores;
 	 private int 	certificacion;
-	 private int 	tipoModular;
-	public Fuente(String potencia, int diametroVentilador, String numeroConectores, int certificacion,
-			int tipoModular) {
-		super();
-		this.potencia = potencia;
-		this.diametroVentilador = diametroVentilador;
-		this.numeroConectores = numeroConectores;
-		this.certificacion = certificacion;
-		this.tipoModular = tipoModular;
-	}
+	 private  int	tipoModular;
+	
 	public String getPotencia() {
 		return potencia;
 	}

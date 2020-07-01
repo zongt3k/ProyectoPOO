@@ -7,15 +7,9 @@ public class Motherboard {
 	 private String proveedorChipset;
 	 private int 	capacidadSata;
 	 private String 	puertoM2;
-	public Motherboard(String fabricante, String modelo, String proveedorChipset, int capacidadSata, String puertoM2) {
-		super();
-		this.fabricante = fabricante;
-		this.modelo = modelo;
-		this.proveedorChipset = proveedorChipset;
-		this.capacidadSata = capacidadSata;
-		this.puertoM2 = puertoM2;
-	}
-	public String getFabricante() {
+	
+	 
+	 public String getFabricante() {
 		return fabricante;
 	}
 	public void setFabricante(String fabricante) {

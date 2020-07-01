@@ -7,14 +7,8 @@ public class Ram {
 	 private String capacidadRam;
 	 private int 	frecuenciaRam;
 	 private int 	infoFrecuencia;
-	public Ram(String marcaRam, int numRam, String capacidadRam, int frecuenciaRam, int infoFrecuencia) {
-		super();
-		this.marcaRam = marcaRam;
-		this.numRam = numRam;
-		this.capacidadRam = capacidadRam;
-		this.frecuenciaRam = frecuenciaRam;
-		this.infoFrecuencia = infoFrecuencia;
-	}
+
+	 
 	public String getMarcaRam() {
 		return marcaRam;
 	}

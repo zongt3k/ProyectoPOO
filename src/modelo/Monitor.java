@@ -4,17 +4,10 @@ public class Monitor {
 	
 	private String marcaMonitor;
 	 private int 	pulgadas;
-	 private String fTasaderefreso;
+	 private String fTasaderefresco;
 	 private int 	tipoPanel;
 	 private int 	cantidadMonitores;
-	public Monitor(String marcaMonitor, int pulgadas, String fTasaderefreso, int tipoPanel, int cantidadMonitores) {
-		super();
-		this.marcaMonitor = marcaMonitor;
-		this.pulgadas = pulgadas;
-		this.fTasaderefreso = fTasaderefreso;
-		this.tipoPanel = tipoPanel;
-		this.cantidadMonitores = cantidadMonitores;
-	}
+
 	public String getMarcaMonitor() {
 		return marcaMonitor;
 	}
@@ -28,10 +21,10 @@ public class Monitor {
 		this.pulgadas = pulgadas;
 	}
 	public String getfTasaderefreso() {
-		return fTasaderefreso;
+		return fTasaderefresco;
 	}
 	public void setfTasaderefreso(String fTasaderefreso) {
-		this.fTasaderefreso = fTasaderefreso;
+		this.fTasaderefresco = fTasaderefreso;
 	}
 	public int getTipoPanel() {
 		return tipoPanel;

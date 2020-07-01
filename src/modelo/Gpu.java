@@ -9,14 +9,6 @@ public class Gpu {
 	 private int 	capacidadVRAM;
 	 private int 	tipoAPI;
 	
-	 public Gpu(String tipoGpu, String marcaGPU, int serieGpu, int capacidadVRAM, int tipoAPI) {
-		super();
-		this.tipoGpu = tipoGpu;
-		this.marcaGPU = marcaGPU;
-		this.serieGpu = serieGpu;
-		this.capacidadVRAM = capacidadVRAM;
-		this.tipoAPI = tipoAPI;
-	}
 	public String getTipoGpu() {
 		return tipoGpu;
 	}
